@@ -1,0 +1,19 @@
+{
+  "name": "ejercicioepam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "test": "cypress run",
+  "test:chrome": "cypress run --browser chrome",
+  "test:firefox": "cypress run --browser firefox",
+  "test:edge": "cypress run --browser edge"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.13.0"
+  }
+}
